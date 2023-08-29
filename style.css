@@ -7,3 +7,32 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 4%;
+}
+
+h5{
+    margin-left: -10px;
+}
+
+footer{
+    color: white;
+    margin: 50px 0px;
+    padding: 10px 100px;
+    opacity: 40%;
+    font-size: small;
+}
+
+.service-code{
+    border: 1px solid white;
+    text-align: center;
+    align-content: center;
+}
+
+.film:hover{
+    transform: scale(1.05);
+}
+
+@keyframes netflix-overlay{
+    
+}
