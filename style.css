@@ -4,7 +4,8 @@
 } */
 
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -33,6 +34,28 @@ footer{
     transform: scale(1.05);
 }
 
+.film{
+    transition: all 1s linear;
+}
+
+.overlay{
+    position: fixed;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    z-index: 9999999;
+    background-color: black;
+    background-size: cover;
+    animation: netflix-overlay 3s ease-in-out forwards;
+}
+
 @keyframes netflix-overlay{
-    
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        z-index: -1;
+        height: 0px;
+    }
 }
