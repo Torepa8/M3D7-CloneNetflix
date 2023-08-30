@@ -31,7 +31,8 @@ footer{
 }
 
 .film:hover{
-    transform: scale(1.05);
+    transform: scale(1.15);
+    z-index: 1;
 }
 
 .film{
