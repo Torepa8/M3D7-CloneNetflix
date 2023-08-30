@@ -3,6 +3,18 @@
     src: url(assets/BebasNeue-Regular.ttf);
 } */
 
+.textVw-1{
+    font-size: 1vw;
+}
+
+.textVw-2{
+    font-size: 2vw;
+}
+
+.textVw-3{
+    font-size: 3vw;
+}
+
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
