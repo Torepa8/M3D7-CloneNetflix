@@ -3,6 +3,18 @@
     src: url(assets/BebasNeue-Regular.ttf);
 } */
 
+.z-in2{
+    z-index: 3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
 .textVw-1{
     font-size: 1vw;
 }
@@ -21,12 +33,20 @@ body{
 }
 
 .carousel-control-next, .carousel-control-prev {
-    width: 4%;
+    width: 2%;
 }
 
-h5{
-    /* margin-left: -10px; */
+.carousel-control-next{
+    right: -20px;
 }
+
+.carousel-control-prev{
+    left: -20px;
+}
+
+/* h5{
+    /* margin-left: -10px;
+} */
 
 footer{
     color: white;
@@ -49,7 +69,7 @@ footer{
 }
 
 .film{
-    transition: all 0.6s linear;
+    transition: transform 0.6s linear;
     opacity: 0.7;
 }
 
@@ -61,7 +81,7 @@ footer{
     z-index: 10;
     background-color: black;
     background-size: cover;
-    animation: netflix-overlay 3s ease-in-out forwards;
+    animation: netflix-overlay 3s ease-in-out alternate forwards;
 }
 
 @keyframes netflix-overlay{
