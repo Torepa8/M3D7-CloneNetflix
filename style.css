@@ -84,6 +84,20 @@ footer{
     animation: netflix-overlay 3s ease-in-out alternate forwards;
 }
 
+#userlabel{
+    display: unset;
+    cursor: pointer;
+}
+
+#user-menu{
+    display: none;
+}
+
+#user-menu:checked + label img{
+    transform: scale(1.2);
+    border: 1px solid white;
+}
+
 @keyframes netflix-overlay{
     0% {
         opacity: 1;
