@@ -21,20 +21,16 @@ body{
 }
 
 .carousel-control-next, .carousel-control-prev {
-    width: 2%;
+    width: 3%;
 }
 
 .carousel-control-next{
-    right: -20px;
+    right: -1em;
 }
 
 .carousel-control-prev{
-    left: -20px;
+    left: -1em;
 }
-
-/* h5{
-    /* margin-left: -10px;
-} */
 
 footer{
     color: white;
