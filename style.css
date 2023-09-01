@@ -18,17 +18,32 @@ body {
 
 #treding-now{
     opacity: 0;
-    animation: fade-in 3s linear 1.5s forwards;
+    animation: fade-in 2s linear 1.5s forwards;
 }
 
 #watch-again{
     opacity: 0;
-    animation: fade-in 3s linear 2s forwards;
+    animation: fade-in 2s linear 1.8s forwards;
 }
 
-#new-releases,#movies, #recently,#mylist{
+#new-releases{
     opacity: 0;
-    animation: fade-in 3s linear 2.5s forwards;
+    animation: fade-in 2s linear 2.1s forwards;
+}
+
+#movies{
+    opacity: 0;
+    animation: fade-in 2s linear 2.4s forwards;
+}
+
+#recently{
+    opacity: 0;
+    animation: fade-in 2s linear 2.7s forwards;
+}
+
+#mylist{
+    opacity: 0;
+    animation: fade-in 2s linear 3s forwards;
 }
 
 .z-in2 {
