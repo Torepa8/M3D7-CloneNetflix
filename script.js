@@ -1,14 +1,37 @@
+const movies=document.getElementById('movies')
+const recently=document.getElementById('recently')
+const mylist=document.getElementById('mylist')
+const treding=document.getElementById('treding-now')
+const watch=document.getElementById('watch-again')
+const newreleases=document.getElementById('new-releases')
+
 window.addEventListener('scroll', function () {
-    if(this.window.scrollY>150){
-        let movies=document.getElementById('movies')
+    if(this.window.scrollY>130){        
         movies.classList.add('fade')
     }
-    if(this.window.scrollY>300){
-        let recently=document.getElementById('recently')
+    if(this.window.scrollY>270){
         recently.classList.add('fade')
     }
-    if(this.window.scrollY>430){
-        let mylist=document.getElementById('mylist')
+    if(this.window.scrollY>400){
         mylist.classList.add('fade')
     }
 })
+
+window.onload=function(){
+    if(document.documentElement.clientHeight>600){
+        treding.classList.add('fade')
+        watch.classList.add('fade')
+        newreleases.classList.add('fade')
+        movies.classList.add('fade')
+        recently.classList.add('fade')
+        mylist.classList.add('fade')
+    }
+    else{
+        treding.classList.add('fade')
+        watch.classList.add('fade')
+        newreleases.classList.add('fade')
+        movies.style.setProperty("--li-index", "0.5s");
+        recently.style.setProperty("--li-index", "0.5s");
+        mylist.style.setProperty("--li-index", "0.5s");
+    }
+}
