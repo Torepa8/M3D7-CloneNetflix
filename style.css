@@ -17,42 +17,42 @@ body {
 }
 
 .fade{
-    animation: fade-in 2s linear calc(var(--li-index) * 0.35) forwards;
+    animation: fade-in 2s linear calc(var(--index-delay) * 0.35) forwards;
 }
 
 #treding-now{
     opacity: 0;
-    --li-index:1s;
+    --index-delay:1s;
     /* animation: fade-in 2s linear 1.5s forwards; */
 }
 
 #watch-again{
     opacity: 0;
-    --li-index:2s;
+    --index-delay:2s;
     /* animation: fade-in 2s linear 1.8s forwards; */
 }
 
 #new-releases{
     opacity: 0;
-    --li-index:3s;
+    --index-delay:3s;
     /* animation: fade-in 2s linear 2.1s forwards; */
 }
 
 #movies{
     opacity: 0;
-    --li-index:4s;
+    --index-delay:4s;
     /* animation: fade-in 2s linear 2.4s forwards; */
 }
 
 #recently{
     opacity: 0;
-    --li-index:5s;
+    --index-delay:5s;
     /* animation: fade-in 2s linear 2.7s forwards; */
 }
 
 #mylist{
     opacity: 0;
-    --li-index:6s;
+    --index-delay:6s;
     /* animation: fade-in 2s linear 3s forwards; */
 }
 

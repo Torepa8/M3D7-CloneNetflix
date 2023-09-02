@@ -18,7 +18,7 @@ window.addEventListener('scroll', function () {
 })
 
 window.onload=function(){
-    if(document.documentElement.clientHeight>600){
+    if(document.documentElement.clientHeight>630){
         treding.classList.add('fade')
         watch.classList.add('fade')
         newreleases.classList.add('fade')
@@ -30,8 +30,8 @@ window.onload=function(){
         treding.classList.add('fade')
         watch.classList.add('fade')
         newreleases.classList.add('fade')
-        movies.style.setProperty("--li-index", "0.5s");
-        recently.style.setProperty("--li-index", "0.5s");
-        mylist.style.setProperty("--li-index", "0.5s");
+        movies.style.setProperty("--index-delay", "0.5s");
+        recently.style.setProperty("--index-delay", "0.5s");
+        mylist.style.setProperty("--index-delay", "0.5s");
     }
 }
