@@ -18,13 +18,27 @@ window.addEventListener('scroll', function () {
 })
 
 window.onload=function(){
-    if(document.documentElement.clientHeight>630){
+    if(document.documentElement.clientHeight>900){
         treding.classList.add('fade')
         watch.classList.add('fade')
         newreleases.classList.add('fade')
         movies.classList.add('fade')
         recently.classList.add('fade')
         mylist.classList.add('fade')
+    }else if(document.documentElement.clientHeight>800){
+        treding.classList.add('fade')
+        watch.classList.add('fade')
+        newreleases.classList.add('fade')
+        movies.classList.add('fade')
+        recently.classList.add('fade')
+        mylist.style.setProperty("--index-delay", "0.5s");
+    }else if(document.documentElement.clientHeight>700){
+        treding.classList.add('fade')
+        watch.classList.add('fade')
+        newreleases.classList.add('fade')
+        movies.classList.add('fade')
+        recently.style.setProperty("--index-delay", "0.5s");
+        mylist.style.setProperty("--index-delay", "0.5s");
     }
     else{
         treding.classList.add('fade')
