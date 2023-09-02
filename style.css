@@ -127,17 +127,22 @@ footer {
 }
 
 #user-menu:checked~#sidebar-right {
-    background-color: aqua;
-    transform: translateX(0);
+    transform: translateX(-10%);
+    transition: all 1s linear;
 }
 
-
 #sidebar-right {
-    position: absolute;
-    top: 50px;
-    right: 0;
+    position: fixed;
+    height: 50%;
+    width: 50vw;
+    left: 80%;
     background-color: black;
-    transform: translateX(100%);
+    transform: translateX(50%);
+    transition: all 1s linear;
+    padding-top: 10px;
+    padding-left: 10px;
+    z-index: 5;
+    opacity: 80%;
 }
 
 @keyframes sblocco-body {
