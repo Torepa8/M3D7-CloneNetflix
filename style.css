@@ -16,6 +16,10 @@ body {
     }
 }
 
+.fade{
+    animation: fade-in 2s linear 1 forwards;
+}
+
 #treding-now{
     opacity: 0;
     animation: fade-in 2s linear 1.5s forwards;
@@ -33,17 +37,17 @@ body {
 
 #movies{
     opacity: 0;
-    animation: fade-in 2s linear 2.4s forwards;
+    /* animation: fade-in 2s linear 2.4s forwards; */
 }
 
 #recently{
     opacity: 0;
-    animation: fade-in 2s linear 2.7s forwards;
+    /* animation: fade-in 2s linear 2.7s forwards; */
 }
 
 #mylist{
     opacity: 0;
-    animation: fade-in 2s linear 3s forwards;
+    /* animation: fade-in 2s linear 3s forwards; */
 }
 
 .z-in2 {
